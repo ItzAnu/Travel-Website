@@ -1,0 +1,123 @@
+*{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*Navbar*/
+.nav-nying img{
+	width: 110px;
+}
+
+.nav-1{
+	font-size: 20px;
+}
+
+.nav-link{
+	padding-top: 20px;
+}
+
+.nav-log a{
+	text-align: center;
+	color: white !important;
+	transition: 0.5s;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 10px 20px !important;
+    background-color: #007bff;
+	margin-left: 350px; 
+}
+
+.nav-log a:hover{
+	background-color: #313ec0 !important;
+}
+
+/*akhir Navbar*/
+
+/*corosal*/
+@keyframes slider{
+
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+
+#slider{
+	overflow: hidden;
+}
+
+#slider figure img{
+	filter: brightness(70%);
+	width: 20%;
+	float: left;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite;
+}
+
+/*akhir corosal*/
+
+/*jumbotron*/
+.jumbotron{
+	margin-left: 135px;
+	margin-top: -100px;
+	position: absolute;
+	width: 1100px;
+}
+
+.bed{		
+	border-radius: 5px;
+	padding: 5px 5px;
+	color: #fff;
+	background-color: #fb387e;
+	margin-right: 15px;
+}
+
+.isijumb h3 {
+	top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+    vertical-align: middle;
+    color: #35405a;
+    font-weight: 400;
+}
+
+.isijumb span{
+	float: right;
+}
+
+
+
+/*akhir jumbotron*/

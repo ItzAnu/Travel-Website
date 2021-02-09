@@ -1,0 +1,35 @@
+*{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/*Navbar*/
+.nav-nying img{
+	width: 110px;
+}
+
+.nav-1{
+	font-size: 20px;
+}
+
+.nav-link{
+	padding-top: 25px !important;
+}
+
+.nav-log a{
+	text-align: center;
+	color: white !important;
+	transition: 0.5s;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 10px 20px !important;
+    background-color: #007bff;
+	margin-left: 490px; 
+}
+
+.nav-log a:hover{
+	background-color: #313ec0 !important;
+}
+
+/*akhir Navbar*/

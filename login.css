@@ -1,0 +1,117 @@
+*{
+	font-family: calibri;
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+}
+
+body{
+	background-image: url(img/wallogin2.jpg);
+	background-size: cover;
+}
+
+.login-panel{
+	position: relative;
+	text-align: center;
+}
+
+.panel img{
+	filter: blur(1px);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	width: 630px;
+	height: 175px;
+}
+
+.panel{
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 350px;
+	width: 630px;
+	background-color: white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.test{
+	color: white;
+	position: absolute;
+	top: 60px;
+	margin-left: -185px;
+	left: 770px;
+	font-size: 40px;
+}
+
+.input{
+	color: #33979e;
+	display: inline-block;
+	margin-right: 100px;
+	font-size: 22px;
+	margin-top: 40px;
+}
+
+.input input{
+	font-size: 20px;
+	margin-right: -50px;
+	border: transparent;
+	border-bottom: solid;
+	border-width: 1px;
+	height: 50px;
+	width: 380px;
+}
+
+.pass{
+	margin-top: 30px;
+	margin-left: 6px;
+}
+
+.rember{
+	color: #33979e;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-right: -50px;
+}
+
+.rember input{
+	background-color: white;
+	margin-right: 5px;
+}
+
+.rember a{
+	text-decoration: none;
+	color: #33979e;
+	padding-left: 140px;
+}
+
+.login-link button{
+	border-radius: 50px;
+	height: 50px;
+	border: none;
+	background-color: #549617;
+	width: 150px;
+	font-size: 25px;
+	margin-right: 220px;
+	text-decoration: none;
+}
+
+.login-link button:hover{
+	background-color: #1a2412;
+	color: white;
+	transition: all 0.5s ease-out;
+}
+
+.login-link{
+	margin-top: 30px;
+}
+
+.regster{
+	font-size: 17px;
+	margin-right: 10px;
+	margin-top: 90px;
+}
+
+.regster a{
+	color: #33979e;
+	text-decoration: none;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
